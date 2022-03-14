@@ -1,0 +1,432 @@
+
+body {
+  font-family: 'Open sans', sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  width: 30rem;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+
+.top-container {
+  background-color: hsl(193, 100%, 96%);
+  background-image: url(images/bg-hero-desktop.svg);
+  position: relative;
+  height: auto;
+  width: 100%;
+  padding: 3% 7% 5%;
+}
+
+.top-row {
+  height: auto;
+}
+
+/* HURDLE LOGO */
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 35%;
+}
+
+/* TRY IT FREE BUTTON */
+.top-button-div {
+  text-align: right;
+  height: 3rem;
+}
+
+.top-button {
+  width: 50%;
+  height: 100%;
+  border-radius: 40px;
+  background-color: white;
+  box-shadow: 0 0 5px hsl(208, 11%, 55%);
+}
+
+.top-button a{
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+}
+
+.top-button:hover {
+  opacity: 0.75;
+}
+
+.top-heading {
+  padding-top: 5%;
+}
+
+.top-heading p {
+  width: 30rem;
+  font-family: 'Open sans' sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+
+/* GET IT FREE BUTTON*/
+.mid-button-div {
+  text-align: left;
+  padding: 4% 0 6%;
+}
+
+.mid-button {
+  text-align: center;
+  display: inline-block;
+  width: 50%;
+  border-radius: 40px;
+  background-color: hsl(322, 100%, 66%);
+}
+
+.mid-button:hover {
+  opacity: 0.7;
+}
+
+.mid-button a{
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  line-height: 1.5;
+  font-size: 1rem;
+  padding: 3% auto;
+}
+
+/* DESKTOP & PHONE MOCKUPS*/
+.mockups {
+  width: 100%;
+}
+
+/* MID SECTION */
+.mid-container {
+  position: relative;
+  width: 100%;
+}
+
+.text-column {
+  padding-top: 5rem;
+}
+
+.image-column {
+  text-align: center;
+}
+
+
+/* FIRST BOX */
+.first-box {
+  width: 95%;
+  height: auto;
+  box-shadow: 0 0 5px hsl(208, 11%, 55%);
+  border-radius: 20px;
+  padding: 5%;
+  margin: 7rem auto 1rem;
+}
+
+.first-box-heading {
+  display: inline-block;
+  position: relative;
+}
+
+.first-box-text {
+  display: inline-block;
+  font-weight: 400;
+  position: relative;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.first-box-image {
+  display: inline-block;
+  width: 70%;
+}
+
+
+/* SECOND BOX */
+.second-box {
+  width: 95%;
+  height: auto;
+  box-shadow: 0 0 5px hsl(208, 11%, 55%);
+  border-radius: 20px;
+  padding: 5%;
+  margin: 2.5rem auto 1rem;
+}
+
+.second-box-heading {
+  display: inline-block;
+  position: relative;
+}
+
+.second-box-text {
+  display: inline-block;
+  font-weight: 400;
+  position: relative;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.second-box-image {
+  display: inline-block;
+  width: 70%;
+}
+
+
+/* THIRD BOX */
+.third-box {
+  width: 95%;
+  height: auto;
+  box-shadow: 0 0 5px hsl(208, 11%, 55%);
+  border-radius: 20px;
+  padding: 5%;
+  margin: 2.5rem auto 1rem;
+}
+
+.third-box-heading {
+  display: inline-block;
+  position: relative;
+}
+
+.third-box-text {
+  display: inline-block;
+  font-weight: 400;
+  position: relative;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.third-box-image {
+  display: inline-block;
+  width: 70%;
+}
+
+
+/* BOTTOM BOX */
+.bottom-box {
+  position: relative;
+  background-color: white;
+  width: 65%;
+  height: 14rem;
+  box-shadow: 0 0 5px hsl(208, 11%, 55%);
+  border-radius: 10px;
+  margin: 0 auto;
+  z-index: 2;
+  top: 5rem;
+}
+
+.bottom-box-content {
+  margin: auto;
+  width: 28rem;
+  padding-top: 8%;
+}
+
+.bottom-box h2 {
+  font-size: 1.5rem;
+}
+
+.bottom-button {
+  display: inline-block;
+  position: relative;
+  background-color: hsl(322, 100%, 66%);
+  width: 60%;
+  border-radius: 40px;
+  height: auto;
+  box-shadow: 0 0 5px hsl(208, 11%, 55%);
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.bottom-button:hover {
+  opacity: 0.75;
+}
+
+.bottom-button a{
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  height: auto;
+  font-size: 0.8rem;
+}
+
+
+/* BOTTOM SECTION */
+.bottom-container {
+  background-color: hsl(192, 100%, 9%);
+  color: white;
+  height: auto;
+  position: relative;
+  font-size: 0.75rem;
+  padding: 5% auto 0%;
+}
+
+.logo-row {
+  padding:15% 8% 2%;
+}
+
+.bottom-logo {
+  display: inline-block;
+  width: 17%;
+}
+
+.bottom-row {
+  padding: 0 8% 2%;
+}
+
+.bottom-container a {
+  text-decoration: none;
+  color: white;
+}
+
+.bottom-container a:hover {
+  text-decoration: underline;
+}
+
+.grid {
+  margin: 0 auto;
+}
+
+.social-icons {
+  margin: 0 auto;
+}
+
+.social-icons img {
+  padding: 4px;
+  border-radius: 100%;
+  border: 1.5px solid white;
+  width: 1.6rem;
+}
+
+.copyright {
+  margin-bottom: 0;
+  text-align: right;
+}
+
+
+/* FOOTER */
+footer {
+  background-color: hsl(192, 100%, 9%);
+  font-size: 0.55rem;
+  color: gray;
+  text-align: center;
+}
+
+@media (max-width: 1070px) {
+  .top-heading p {
+    width: 27rem;
+  }
+}
+@media (max-width: 990px) {
+
+  .top-container {
+    padding-top: 7%;
+  }
+
+  .logo {
+    width: 85%
+  }
+
+  .mockups-container {
+    padding: 10%;
+    margin-top: 20%;
+  }
+
+  .top-heading h1 {
+    text-align: center;
+    margin: 10% auto auto;
+    font-size: 3.6rem;
+    width: 40rem;
+  }
+
+  .top-heading p {
+    text-align: center;
+    margin: 1rem auto 2rem;
+    font-weight: 500;
+    font-size: 2rem;
+    width: 50rem;
+  }
+
+  .top-button {
+    width: 60%;
+    height: 150%;
+  }
+
+  .top-button a {
+    font-size: 1.8rem;
+  }
+
+  .mid-button-div {
+    text-align: center;
+  }
+
+  .mid-button {
+    height: 5rem;
+  }
+
+  .mid-button a {
+    font-size: 1.8rem;
+  }
+
+  .mid-container {
+    text-align: center;
+  }
+
+  .text-column {
+    text-align: center;
+  }
+
+  .text-column h2 {
+    font-size: 2.5rem;
+  }
+
+  .text-column p {
+    font-size: 1.7rem;
+    padding: 3% 5% 5%;
+  }
+
+  .image-column img {
+    margin-top: 10%;
+    width: 90%;
+  }
+
+  .bottom-container {
+    font-size: 1.0rem;
+  }
+
+  .bottom-logo {
+    padding-top: 10%;
+    width: 35%;
+  }
+
+  .social-icons {
+    margin: 10% auto;
+  }
+
+  .copyright {
+    text-align: center;
+  }
+
+  .bottom-box {
+    width: 90%;
+  }
+}
